@@ -1,0 +1,14 @@
+--- dyninst-11.0.0/dyninst-11.0.0/cmake/Boost.cmake.orig	2021-04-08 16:48:12.000000000 -0400
++++ dyninst-11.0.0/dyninst-11.0.0/cmake/Boost.cmake	2021-05-07 12:35:53.124203324 -0400
+@@ -53,3 +53,3 @@
+ # Need at least Boost-1.67 because of deprecated headers
+-set(_boost_min_version 1.67.0)
++set(_boost_min_version 1.66.0)
+ 
+--- dyninst-11.0.0/dyninst-11.0.0/cmake/ThreadingBuildingBlocks.cmake.orig	2021-04-08 16:48:12.000000000 -0400
++++ dyninst-11.0.0/dyninst-11.0.0/cmake/ThreadingBuildingBlocks.cmake	2021-05-07 12:40:13.092183538 -0400
+@@ -52,3 +52,3 @@
+ else()
+-  set(_tbb_min_version 2018.6)
++  set(_tbb_min_version 2018.0)
+ endif()
